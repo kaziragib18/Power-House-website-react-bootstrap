@@ -1,0 +1,15 @@
+.logo__img{
+      width: 200px;
+      height: 60px;
+}
+a{
+      text-decoration: none;
+}
+.nav__design{
+      color: rgb(212, 60, 60);
+      font-weight: 700;
+}
+.nav__design:hover{
+      color: rgb(156, 11, 11);
+    
+}

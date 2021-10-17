@@ -1,0 +1,29 @@
+.banner {
+      height: 100vh;
+      width: 100%;
+      background-image: url("https://img3.goodfon.com/original/1920x1080/9/75/dumbbell-arms-man-fitness-gym.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+      /* height:600px;
+       width: 100%; */
+      /* border: 1px solid red; */
+      background-blend-mode: overlay;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    
+    .title {
+      color: rgb(133, 17, 17);
+      font-size: 48px;
+      font-weight: 900;
+    }
+    .title-sm {
+      font-weight: 600;
+      font-size: 26px;
+      color: rgb(224, 221, 219);
+
+    }
