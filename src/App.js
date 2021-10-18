@@ -9,6 +9,8 @@ import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/Login/PrivateRoute/PrivateRoute';
 import Footer from './components/Shared/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
+import About from './components/About/About';
+import Health from './components/Health/Health';
 
 
 function App() {
@@ -26,6 +28,15 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+
+            <Route path="/health">
+              <Health></Health>
+            </Route>
+            
+            <Route path="/about">
+              <About></About>
+            </Route>
+
 
             <Route path="/login">
               <Login></Login>

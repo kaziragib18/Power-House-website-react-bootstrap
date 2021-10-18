@@ -30,7 +30,9 @@ const instructors = [
 const Instructors = () => {
       return (
             <div id="instructors" className="container">
-                  <h2 className="text-danger mt-4 mb-3">Our Instructors</h2>
+                  <h2 className="text-danger mt-4 mb-3">Personal Instructors</h2>
+                  <h5 className="text-light"> Personal Training is offered in a one-on-one format lead by a certified personal trainer, providing a very personalized experience. Small group training is similar to personal training, only it’s more fun as there are typically 2-4 people in a session. Team workouts include 5+ people and provide accountability and an energy-filled atmosphere that keeps you motivated.</h5>
+                  <hr className="text-light"/>
                   <div className="row">
                         {
                               instructors.map(instructor =><Instructor

@@ -1,0 +1,30 @@
+.health__banner {
+      height: 100vh;
+      width: 100%;
+      background-image: url("https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"),
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+      /* height:600px;
+       width: 100%; */
+      /* border: 1px solid red; */
+      background-blend-mode: overlay;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    body {
+      overflow-x: hidden;
+    }
+    
+    .title {
+      color: rgb(255, 255, 255);
+      font-size: 52px;
+      font-weight: 900;
+    }
+    .title-sm {
+      /* background-color: rgb(192, 192, 192); */
+      font-weight: 700;
+      font-size: 28px;
+      color: rgb(253, 253, 253);
+
+    }

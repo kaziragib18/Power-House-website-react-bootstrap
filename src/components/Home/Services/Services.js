@@ -12,8 +12,10 @@ const Services = () => {
       }, [])
 
       return (
-           <div id="services">
+           <div id="services" className="p-3">
                  <h2 className="text-danger mt-5">Our Services</h2>
+                 <h5 className="text-light">Together – we can make healthy happen. That’s why we offer personal training and classes when you’re here, and the right tools to keep you on track when you’re not. Our friendly, professional staff is trained to help you along your fitness journey, no matter how much support you need.</h5>
+                  <hr className="text-light"/>
                  <div className="service__div">
                  <div className="service__container">
                   {

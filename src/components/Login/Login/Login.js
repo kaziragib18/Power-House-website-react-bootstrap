@@ -2,7 +2,7 @@ import React from 'react';
 import useAuth from '../../../hooks/useAuth';
 
 const Login = () => {
-      const { signInUsingGoogle, signInUsingGithub, signInUsingFacebook } = useAuth();
+      const { signInUsingGoogle, signInUsingFacebook } = useAuth();
       return (
             <div>
                   {/* <h2>user</h2> */}
@@ -38,10 +38,7 @@ const Login = () => {
                               <button className="me-2" onClick={signInUsingGoogle}>
                                     Google
                               </button>
-                              <button className="me-2" onClick={signInUsingGithub}>
-                                    Github
-                              </button>
-
+                        
                               <button className="me-2" onClick={signInUsingFacebook}>
                                     Facebook
                               </button>

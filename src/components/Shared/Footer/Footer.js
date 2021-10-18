@@ -8,10 +8,9 @@ const Footer = () => {
                   <div className="">
                         <div className="row">
                               <div className="col-md-3 ">
-                                    <div className="first__part p-2 mt-2">
+                                    <div className="first__part p-1">
                                           <img className="logo__img" src={logo} alt="" />
-                                          <h6 className="mt-4">About Us</h6>
-                                          <p>Lorem ipsum dolor sit amet.</p>
+                                          <p className="pt-3">Join A Gym Where You’re More Than Just A Member. Powerhouse Gym is Family Owned and Operated.</p>
                                          
                                     </div>
                               </div>
