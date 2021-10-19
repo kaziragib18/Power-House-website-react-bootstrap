@@ -1,9 +1,9 @@
 # Power House 
 Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff and premier exercise equipment, which supports our members in meeting their individual fitness goals. This is a fully responsive react bootrap website with authentication system.
 
-### `live Link:` https://dream-life-2021-kaziragib18.netlify.app/ 
+### `live Link:`  https://power-house-23fc9.web.app
 
-### `Overview:`
+### `Overview:` 
  - The site is designed with reactjs, react bootstrap, html5 and some custom css3.
  - Used npm package manager to install font awesome react bootstrap component in the site.
  - Created data for this site. 
