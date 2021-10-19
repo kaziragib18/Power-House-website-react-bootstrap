@@ -1,10 +1,11 @@
 // import React, { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
 import useFirebase from '../../../hooks/useFirebase';
+import './Login.css'
 
 const Login = () => {
-      const { signInUsingGoogle, signInUsingFacebook, signInWithEmailAndPassword } = useAuth();
-      const { email, password, error, isLogin, toggleLogin, handleRegistration, handleEmailChange, handlePasswordChange, handleResetPassword, handleNameChange } = useFirebase();
+      const { signInUsingGoogle, signInUsingFacebook } = useAuth();
+      const { error, isLogin, toggleLogin, handleRegistration, handleEmailChange, handlePasswordChange, handleResetPassword, handleNameChange } = useFirebase();
 
       return (
             <div>
@@ -46,13 +47,14 @@ const Login = () => {
                                           <span className="m-2">                                          <button onClick={handleResetPassword} className="mt-3 mb-5 py-2 px-3 rounded-pill btn btn-dark m-auto">Reset Password</button>
                                           </span>
 
-
                                     </form>
                               </div>
-                              <p className="text-danger">You can also Sign up with:</p>
+                              <p className="text-danger">You can also Sign in with:</p>
                               <hr className="text-light"/>
-                              <button className="btn btn-danger me-2" onClick={signInUsingGoogle}>Google</button>
-                              <button className="btn btn-danger me-2" onClick={signInUsingFacebook}>Facebook</button>
+
+                              <button className="btn me-2" onClick={signInUsingGoogle}><img className="login__icon" src="https://cdn-icons-png.flaticon.com/128/2702/2702602.png" alt="" /></button>
+
+                              <button className="btn me-2" onClick={signInUsingFacebook}><img className="login__icon" src="https://cdn-icons-png.flaticon.com/128/1384/1384053.png" alt="" /></button>
 
                         </div>
                   </div>

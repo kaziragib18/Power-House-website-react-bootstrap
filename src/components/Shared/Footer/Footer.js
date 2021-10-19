@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../images/logo/logo.png"
+import logo from "../../../images/logo/logo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -25,12 +25,7 @@ const Footer = () => {
                                           <br />
                                           <input className="input-button btn btn-danger rounded-pill px-3 py-1 mt-3 mb-4" type="submit" />
                                           <br />
-                                          <p>
-                                                <span className="m-2 ">icon</span>
-                                                <span className="m-2 ">icon</span>
-                                                <span className="m-2 ">icon</span>
-                                                <span className="m-2 ">icon</span>
-                                          </p>
+                                          
                                     </div>
                               </div>
                               <div className="col-md-3">
@@ -39,17 +34,25 @@ const Footer = () => {
                                           <p className="mt-4">Privacy Policy</p>
                                           <p>Blog</p>
                                           <p>FAQ</p>
+                                          <p>Membership</p>
                                           <p>Contact</p>
                                     </div>
                               </div>
                               <div className="col-md-3">
                                     <div className="fourth__part">
                                           <h1 className="fs-3 mb-4">Contact Us</h1>
-                                          <small className="mt-5">Office: 12 Fake Street,New York</small>
-                                          <br />
-                                          <small className="mt-3">Phone: (08) 8827 633354</small>
-                                          <br />
-                                          <small className="mt-3">Fax: 08) 08 4752 1499</small>
+                                          <p>
+                                                <span className="m-2"><img className="footer__icon" src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="" /></span>
+
+                                                <span className="m-2 "><img className="footer__icon" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" /></span>
+
+                                                <span className="m-2 "><img className="footer__icon" src="https://cdn-icons-png.flaticon.com/128/124/124021.png" alt="" /></span>
+
+                                                <span className="m-2 "><img className="footer__icon" src="https://www.svgrepo.com/show/303147/whatsapp-icon-logo.svg" alt="" /></span>
+                                          </p>
+                                          <small className="mt-5">Address: Bashundhora R/A, Block A, Road 3, Henis more street, Dhaka</small>
+                                          <hr />
+                                          <small className="mt-3">Phone: +08801949434546</small>
                                           <br />
                                           <small className="mt-3">Mail: support.Powerhouse.com</small>
                                     </div>

@@ -29,7 +29,7 @@ const ShowDetails = () => {
                   <h5 className="text-light p-1">Below are some of the services & features found at Powerhouse Gyms worldwide. For services available in your area, please contact us to find your gym’s unique offerings.</h5>
                   <hr className="text-light" />
 
-                  <h2>Service Id: {id}</h2>
+                  <h2 className="text-danger">Service Id: {id}</h2>
                   
                   <div className="container">
                         <div className="about__section">
@@ -38,7 +38,7 @@ const ShowDetails = () => {
                                           <div className="about__right__section text-start p-4 text-light">
                                                 <h1 className="text-light mt-3">show name</h1>
                                                 <p className="text-danger">
-                                                      show desc
+                                                      show description
                                                 </p>
                                           </div>
                                     </div>

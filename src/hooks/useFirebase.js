@@ -80,6 +80,7 @@ const useFirebase = () => {
                   .catch(error => {
                         setError(error.message);
                   })
+                  .finally(() => setIsLoading(false));
       }
 
       const setUserName = () =>{

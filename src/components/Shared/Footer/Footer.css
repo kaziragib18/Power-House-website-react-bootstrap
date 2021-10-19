@@ -8,3 +8,7 @@
       height: 30px;
       width: 100%;
 }
+.footer__icon{
+  width: 30px;
+  border-radius: 5px;
+}
