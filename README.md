@@ -1,5 +1,5 @@
 # Power House 
-Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff and premier exercise equipment, which supports our members in meeting their individual fitness goals. This is a fully responsive react bootstrap website with authentication system.
+Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff and premier exercise equipment, which supports our members in meeting their individual fitness goals. This is a fully responsive website build with react bootstrap, react router and firebase authentication system.
 
 ### `live Link:`  https://power-house-23fc9.web.app
 
@@ -14,6 +14,7 @@ Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff
  - Implemented Email Verification & Reset Password 
  - Added Google & Facebook Signin using custom hook with on State Change
  - Created Use Firebase hooks for shared authentication
+ - Create React App with Environment variable for Firebase
  - Implement Sign out and display user logged in User name
  - Used useAuth custom hook and create private route 
  - Implement Auth Redirect 
