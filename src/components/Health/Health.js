@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Health.css'
 import Recipes from './Recipes/Recipes';
 
@@ -11,7 +12,9 @@ const Health = () => {
                                     <div className="col-md-10">
                                           <h1 className="title">NUTRITION & DIET</h1>
                                           <h2 className="title-sm"> Healthy living at your fingertips.</h2>
-                                          <button className="btn btn-danger rounded-pill m-3 py-3 px-4">Learn More</button>
+                                          <Link to='/login'>
+                                          <button className="btn btn-danger rounded-pill m-3 py-3 px-4">Signup Now!</button>
+                                          </Link>
                                     </div>
                                     <div className="col-md-2"></div>
                               </div>

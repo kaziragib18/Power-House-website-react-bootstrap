@@ -1,48 +1,59 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import useAuth from '../../../hooks/useAuth';
+import useFirebase from '../../../hooks/useFirebase';
 
 const Login = () => {
-      const { signInUsingGoogle, signInUsingFacebook } = useAuth();
+      const { signInUsingGoogle, signInUsingFacebook, signInWithEmailAndPassword } = useAuth();
+      const { email, password, error, isLogin, toggleLogin, handleRegistration, handleEmailChange, handlePasswordChange, handleResetPassword, handleNameChange } = useFirebase();
+
       return (
             <div>
-                  {/* <h2>user</h2> */}
                   <div className="login-box d-flex align-items-center justify-content-center">
                         <div className="login">
                               <div className="login-box">
-                                    <h2 className="text-danger mt-5 p-3">Please Login</h2>
-                                    {/* <p className="text-danger">error</p> */}
-                                    <form>
-                                          <input
-                                                className="input-felid p-5 py-2 m-1"
+                                    <h2 className="text-danger mt-5 p-3">Please {isLogin ? 'Login' : 'Register'}</h2>
+                                    <hr className="text-light" />
+                                    <form onSubmit={handleRegistration}>
+
+                                          {!isLogin && <input onBlur={handleNameChange}
+                                                className="input-felid p-5 py-2 mb-3"
+                                                type="text"
+                                                name="Name"
+                                                placeholder="Enter your name"
+                                                required />}
+                                                
+                                          <br />
+                                          <input onChange={handleEmailChange}
+                                                className="input-felid p-5 py-2"
                                                 type="email"
                                                 name="email"
                                                 placeholder="Enter your Email"
-                                          />
+                                                required />
                                           <br />
-                                          <input
-                                                //     onChange={handlePasswordChange}
+                                          <input onChange={handlePasswordChange}
                                                 className="input-felid p-5 py-2 m-3"
                                                 type="password"
                                                 name="password"
                                                 placeholder="Enter your Password"
-                                          />
+                                                required />
                                           <br />
-                                          <input
-                                                className="mt-3 mb-5 p-2 rounded-pill w-25 btn btn-danger m-auto"
-                                                type="submit"
-                                                value="Login"
-                                          />
+                                          <input onChange={toggleLogin} type="checkbox" className="form-check-input me-2" id="exampleCheck1" />
+                                          <label className="form-check-label text-light" htmlFor="exampleCheck1">Already Registered?</label>
+
+                                          <br />
+                                          <div className="row text-warning">{error}</div>
+                                          <button className="mt-3 mb-5 py-2 px-4 rounded-pill btn btn-danger m-auto">{isLogin ? 'Login' : 'Register'}</button>
+                                          <span className="m-2">                                          <button onClick={handleResetPassword} className="mt-3 mb-5 py-2 px-3 rounded-pill btn btn-dark m-auto">Reset Password</button>
+                                          </span>
+
+
                                     </form>
                               </div>
-                              <p className="text-danger">You can also Sign in with:</p>
-                              <button className="me-2" onClick={signInUsingGoogle}>
-                                    Google
-                              </button>
-                        
-                              <button className="me-2" onClick={signInUsingFacebook}>
-                                    Facebook
-                              </button>
-            
+                              <p className="text-danger">You can also Sign up with:</p>
+                              <hr className="text-light"/>
+                              <button className="btn btn-danger me-2" onClick={signInUsingGoogle}>Google</button>
+                              <button className="btn btn-danger me-2" onClick={signInUsingFacebook}>Facebook</button>
+
                         </div>
                   </div>
 

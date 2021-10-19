@@ -9,7 +9,7 @@ const Service = ({ service }) => {
                   <img className="service__img" src={img} alt="" />
                   <h4 className="pt-3  fs-5 fw-bold">{name}</h4>
                   <h5 className="p-2 fs-6">{description}</h5>
-                  <Link to={`/details/${id}`}>
+                  <Link to={`/showdetails/${id}`}>
                   <button className="btn btn-dark border rounded-pill px-4">Learn more</button>
                   </Link>
             </div>

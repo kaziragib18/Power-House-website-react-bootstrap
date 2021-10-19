@@ -3,7 +3,7 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
-import logo from '../../../images/logo/logo2.png'
+import logo from '../../../images/logo/logo.png'
 import './Menubar.css'
 const Menubar = () => {
       const {user, logOut} = useAuth();

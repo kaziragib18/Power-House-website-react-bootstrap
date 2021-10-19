@@ -1,16 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import Home from './components/Home/Home/Home';
 import Menubar from './components/Shared/Menubar/Menubar';
 import AuthProvider from './contexts/AuthProvider';
-import Details from './components/Details/Details/Details';
 import Login from './components/Login/Login/Login';
 import PrivateRoute from './components/Login/Login/PrivateRoute/PrivateRoute';
 import Footer from './components/Shared/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import About from './components/About/About';
 import Health from './components/Health/Health';
+import ShowDetails from './components/Home/ShowDetails/ShowDetails';
 
 
 function App() {
@@ -42,8 +41,8 @@ function App() {
               <Login></Login>
             </Route>
 
-            <PrivateRoute path="/details/:serviceId">
-            <Details></Details>
+            <PrivateRoute path="/showdetails/:id">
+            <ShowDetails></ShowDetails>
             </PrivateRoute>
 
             <Route path="*">
