@@ -17,6 +17,7 @@ const Menubar = () => {
                               <Nav.Link className="nav__design" as={HashLink} to="/home#home">Home</Nav.Link>
                               <Nav.Link className="nav__design" as={HashLink} to="/home#services">Services</Nav.Link>
                               <Nav.Link className="nav__design" as={HashLink} to="/home#instructors">Instructors</Nav.Link>
+                              <Nav.Link className="nav__design" as={HashLink} to="/home#training">Supervision</Nav.Link>
                               <Nav.Link className="nav__design" as={Link} to="/health">Health</Nav.Link>
                               <Nav.Link className="nav__design" as={Link} to="/about">About</Nav.Link>
                              { 

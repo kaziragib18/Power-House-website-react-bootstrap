@@ -46,22 +46,3 @@ const About = () => {
 };
 
 export default About;
-
-<div className="about__section">
-
-      <div className="row">
-            <div className="col-md-6">
-                  <div className="about__image">
-                        <img className="w-100 pt-5 mt-3 rounded" src="../../images/instructors/instructor-img1.jpg" alt="" />
-                  </div>
-            </div>
-            <div className="col-md-6">
-                  <div className="about__right__section text-start p-1 text-light">
-                        <h1 className="text-light mt-3">Impacting People’s Lives</h1>
-                        <p className="text-danger">
-                              The connection shared between coach and member is what makes us special! We believe coaching reaches far beyond the purple turf and we’re committed to standing beside you as you navigate your health journey. We know it can be challenging at times, but if you have questions about fitness, nutrition or recovery—we’ve got the answers. That’s our promise to you. From celebrating our members’ success to providing you with helpful resources, our team will support and inspire you along the way.
-                        </p>
-                  </div>
-            </div>
-      </div>
-</div>
