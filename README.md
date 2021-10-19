@@ -1,5 +1,5 @@
 # Power House 
-Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff and premier exercise equipment, which supports our members in meeting their individual fitness goals. This is a fully responsive react bootrap website with authentication system.
+Power house is a gym with unsurpassed motivating atmosphere, knowledgeable staff and premier exercise equipment, which supports our members in meeting their individual fitness goals. This is a fully responsive react bootstrap website with authentication system.
 
 ### `live Link:`  https://power-house-23fc9.web.app
 
