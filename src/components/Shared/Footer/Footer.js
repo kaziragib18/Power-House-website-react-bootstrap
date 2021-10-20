@@ -31,11 +31,11 @@ const Footer = () => {
                               <div className="col-md-3">
                                     <div className="third__part">
                                           <h1 className="fs-3">Useful Links</h1>
-                                          <p className="mt-4">Privacy Policy</p>
-                                          <p>Blog</p>
-                                          <p>FAQ</p>
-                                          <p>Membership</p>
-                                          <p>Contact</p>
+                                          <p className="link mt-4">Privacy Policy</p>
+                                          <p className="link">Blog</p>
+                                          <p className="link">FAQ</p>
+                                          <p className="link">Membership</p>
+                                          <p className="link">Contact</p>
                                     </div>
                               </div>
                               <div className="col-md-3">
@@ -52,7 +52,7 @@ const Footer = () => {
                                           </p>
                                           <small className="mt-5">Address: Bashundhora R/A, Block A, Road 3, Henis more street, Dhaka</small>
                                           <hr />
-                                          <small className="mt-3">Phone: +08801949434546</small>
+                                          <small className="mt-3">Phone: +8801949434546</small>
                                           <br />
                                           <small className="mt-3">Mail: support.Powerhouse.com</small>
                                     </div>
